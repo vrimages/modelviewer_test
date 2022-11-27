@@ -1,12 +1,17 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <body>
-            <!-- import the component -->
-            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-            <model-viewer src="../assets/tablet73.obj" camera-controls></model-viewer>
-        </body>
-    </head>
+
+    <style>
+      model-viewer{width: 400px; height: 600px; margin: 0 auto;}
+    </style>
+  </head>
+  <body>
+    <model-viewer src="https://cdn.glitch.global/db2dfc72-ac38-49b8-ae1a-b88a37f9cf8d/Astronaut.glb?v=1669586277662" camera-controls auto-rotate ar ios-src=""></model-viewer>  
+  </body>
 </html>
